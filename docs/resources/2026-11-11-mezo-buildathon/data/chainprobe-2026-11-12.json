@@ -1,0 +1,316 @@
+{
+ "mezo-testnet": {
+  "chainId": 31611,
+  "code": {
+   "BorrowerOperations": {
+    "addr": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+    "bytes": 1159
+   },
+   "TroveManager": {
+    "addr": "0xE47c80e8c23f6B4A1aE41c34837a0599D5D16bb0",
+    "bytes": 1159
+   },
+   "HintHelpers": {
+    "addr": "0x4e4cBA3779d56386ED43631b4dCD6d8EacEcBCF6",
+    "bytes": 1159
+   },
+   "SortedTroves": {
+    "addr": "0x722E4D24FD6Ff8b0AC679450F3D91294607268fA",
+    "bytes": 1159
+   },
+   "PriceFeed": {
+    "addr": "0x86bCF0841622a5dAC14A313a15f96A95421b9366",
+    "bytes": 1159
+   },
+   "MUSD": {
+    "addr": "0x118917a40FAF1CD7a13dB0Ef56C86De7973Ac503",
+    "bytes": 6437
+   },
+   "StabilityPool": {
+    "addr": "0x1CCA7E410eE41739792eA0A24e00349Dd247680e",
+    "bytes": 1159
+   },
+   "ActivePool": {
+    "addr": "0x143A063F62340DA3A8bEA1C5642d18C6D0F7FF51",
+    "bytes": 1159
+   },
+   "BorrowerOperationsSignatures": {
+    "addr": "0xD757e3646AF370b15f32EB557F0F8380Df7D639e",
+    "bytes": 1159
+   },
+   "InterestRateManager": {
+    "addr": "0xD4D6c36A592A2c5e86035A6bca1d57747a567f37",
+    "bytes": 1159
+   },
+   "PCV": {
+    "addr": "0x4dDD70f4C603b6089c07875Be02fEdFD626b80Af",
+    "bytes": 1159
+   },
+   "SavingsVault_docsAddr(mainnet link)": {
+    "addr": "0xb4D498029af77680cD1eF828b967f010d06C51CC",
+    "bytes": 0
+   },
+   "Pools_Router": {
+    "addr": "0x9a1ff7FE3a0F69959A3fBa1F1e5ee18e1A9CD7E9",
+    "bytes": 18209
+   },
+   "Pools_PoolFactory": {
+    "addr": "0x4947243CC818b627A5D06d14C4eCe7398A23Ce1A",
+    "bytes": 3515
+   },
+   "Pool_MUSD_BTC": {
+    "addr": "0xd16A5Df82120ED8D626a1a15232bFcE2366d6AA9",
+    "bytes": 45
+   },
+   "CL_SwapRouter": {
+    "addr": "0x3112908bB72ce9c26a321Eeb22EC8e051F3b6E6a",
+    "bytes": 8386
+   },
+   "CL_NFPM": {
+    "addr": "0x9B753e11bFEd0D88F6e1D2777E3c7dac42F96062",
+    "bytes": 23510
+   },
+   "VeBTC": {
+    "addr": "0xB63fcCd03521Cf21907627bd7fA465C129479231",
+    "bytes": 1159
+   },
+   "VeBTCVoter": {
+    "addr": "0x72F8dd7F44fFa19E45955aa20A5486E8EB255738",
+    "bytes": 16572
+   },
+   "BTC_token(0x7b7c..00)": {
+    "addr": "0x7b7C000000000000000000000000000000000000",
+    "bytes": 2463
+   },
+   "MEZO_token(0x7b7c..01)": {
+    "addr": "0x7B7c000000000000000000000000000000000001",
+    "bytes": 3021
+   },
+   "BTC_USD_oracle(0x7b7c..15)": {
+    "addr": "0x7b7c000000000000000000000000000000000015",
+    "bytes": 585
+   },
+   "Pyth": {
+    "addr": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "bytes": 177
+   }
+  },
+  "calls": {
+   "MUSD.decimals": {
+    "addr": "0x118917a40FAF1CD7a13dB0Ef56C86De7973Ac503",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   },
+   "MUSD.totalSupply": {
+    "addr": "0x118917a40FAF1CD7a13dB0Ef56C86De7973Ac503",
+    "sig": "totalSupply()",
+    "raw": "0x000000000000000000000000000000000000000001b17e141924b0cc13d6614e",
+    "uint": 524060268816624822798147918
+   },
+   "BO.minNetDebt": {
+    "addr": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+    "sig": "minNetDebt()",
+    "raw": "0x00000000000000000000000000000000000000000000006194049f30f7200000",
+    "uint": 1800000000000000000000
+   },
+   "BO.MUSD_GAS_COMPENSATION": {
+    "addr": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+    "sig": "MUSD_GAS_COMPENSATION()",
+    "raw": "0x00000000000000000000000000000000000000000000000ad78ebc5ac6200000",
+    "uint": 200000000000000000000
+   },
+   "TM.MUSD_GAS_COMPENSATION": {
+    "addr": "0xE47c80e8c23f6B4A1aE41c34837a0599D5D16bb0",
+    "sig": "MUSD_GAS_COMPENSATION()",
+    "raw": "0x00000000000000000000000000000000000000000000000ad78ebc5ac6200000",
+    "uint": 200000000000000000000
+   },
+   "TM.MCR": {
+    "addr": "0xE47c80e8c23f6B4A1aE41c34837a0599D5D16bb0",
+    "sig": "MCR()",
+    "raw": "0x0000000000000000000000000000000000000000000000000f43fc2c04ee0000",
+    "uint": 1100000000000000000
+   },
+   "TM.CCR": {
+    "addr": "0xE47c80e8c23f6B4A1aE41c34837a0599D5D16bb0",
+    "sig": "CCR()",
+    "raw": "0x00000000000000000000000000000000000000000000000014d1120d7b160000",
+    "uint": 1500000000000000000
+   },
+   "PriceFeed.fetchPrice": {
+    "addr": "0x86bCF0841622a5dAC14A313a15f96A95421b9366",
+    "sig": "fetchPrice()",
+    "raw": "0x000000000000000000000000000000000000000000000fa5075c96eb3f440000",
+    "uint": 73879740480000000000000
+   },
+   "SP.getTotalMUSDDeposits": {
+    "addr": "0x1CCA7E410eE41739792eA0A24e00349Dd247680e",
+    "sig": "getTotalMUSDDeposits()",
+    "raw": "0x000000000000000000000000000000000000000000474f86ee987cbba4fd89a1",
+    "uint": 86209289201119973311613345
+   },
+   "TM.getTroveOwnersCount": {
+    "addr": "0xE47c80e8c23f6B4A1aE41c34837a0599D5D16bb0",
+    "sig": "getTroveOwnersCount()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000169",
+    "uint": 361
+   },
+   "BTC.decimals": {
+    "addr": "0x7b7C000000000000000000000000000000000000",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   },
+   "MEZO.decimals": {
+    "addr": "0x7B7c000000000000000000000000000000000001",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   }
+  }
+ },
+ "mezo-mainnet": {
+  "chainId": 31612,
+  "code": {
+   "BorrowerOperations": {
+    "addr": "0x44b1bac67dDA612a41a58AAf779143B181dEe031",
+    "bytes": 1159
+   },
+   "TroveManager": {
+    "addr": "0x94AfB503dBca74aC3E4929BACEeDfCe19B93c193",
+    "bytes": 1159
+   },
+   "StabilityPool": {
+    "addr": "0x73245Eff485aB3AAc1158B3c4d8f4b23797B0e32",
+    "bytes": 1159
+   },
+   "MUSD": {
+    "addr": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "bytes": 6436
+   },
+   "SavingsVault(sMUSD)": {
+    "addr": "0xb4D498029af77680cD1eF828b967f010d06C51CC",
+    "bytes": 1159
+   },
+   "Pools_Router": {
+    "addr": "0x16A76d3cd3C1e3CE843C6680d6B37E9116b5C706",
+    "bytes": 18209
+   },
+   "VeBTC": {
+    "addr": "0x7D807e9CE1ef73048FEe9A4214e75e894ea25914",
+    "bytes": 1159
+   },
+   "Pyth": {
+    "addr": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "bytes": 177
+   }
+  },
+  "calls": {
+   "MUSD.decimals": {
+    "addr": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   },
+   "BO.minNetDebt": {
+    "addr": "0x44b1bac67dDA612a41a58AAf779143B181dEe031",
+    "sig": "minNetDebt()",
+    "raw": "0x00000000000000000000000000000000000000000000006194049f30f7200000",
+    "uint": 1800000000000000000000
+   },
+   "TM.MUSD_GAS_COMPENSATION": {
+    "addr": "0x94AfB503dBca74aC3E4929BACEeDfCe19B93c193",
+    "sig": "MUSD_GAS_COMPENSATION()",
+    "raw": "0x00000000000000000000000000000000000000000000000ad78ebc5ac6200000",
+    "uint": 200000000000000000000
+   },
+   "SavingsVault.asset": {
+    "addr": "0xb4D498029af77680cD1eF828b967f010d06C51CC",
+    "sig": "asset()",
+    "raw": null,
+    "uint": null
+   },
+   "SavingsVault.decimals": {
+    "addr": "0xb4D498029af77680cD1eF828b967f010d06C51CC",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   },
+   "SavingsVault.totalAssets": {
+    "addr": "0xb4D498029af77680cD1eF828b967f010d06C51CC",
+    "sig": "totalAssets()",
+    "raw": null,
+    "uint": null
+   }
+  }
+ },
+ "ethereum": {
+  "chainId": 1,
+  "code": {
+   "MUSD": {
+    "addr": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "bytes": 6436
+   },
+   "MEZO": {
+    "addr": "0x8e4cbBcc33dB6c0a18561fDE1F6bA35906d4848b",
+    "bytes": 5070
+   }
+  },
+  "calls": {
+   "MUSD.decimals": {
+    "addr": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   },
+   "MEZO.decimals": {
+    "addr": "0x8e4cbBcc33dB6c0a18561fDE1F6bA35906d4848b",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   }
+  }
+ },
+ "base": {
+  "chainId": 8453,
+  "code": {
+   "MUSD": {
+    "addr": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "bytes": 6436
+   },
+   "MEZO": {
+    "addr": "0x8e4cbBcc33dB6c0a18561fDE1F6bA35906d4848b",
+    "bytes": 5070
+   }
+  },
+  "calls": {
+   "MUSD.decimals": {
+    "addr": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "sig": "decimals()",
+    "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "uint": 18
+   }
+  }
+ },
+ "bsc": {
+  "chainId": "ERR <urlopen error [Errno 11001] getaddrinfo failed>",
+  "code": {
+   "MUSD(same addr?)": {
+    "addr": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "err": "<urlopen error [Errno 11001] getaddrinfo failed>"
+   },
+   "MEZO": {
+    "addr": "0x8e4cbBcc33dB6c0a18561fDE1F6bA35906d4848b",
+    "err": "<urlopen error [Errno 11001] getaddrinfo failed>"
+   }
+  },
+  "calls": {
+   "MEZO.decimals": {
+    "addr": "0x8e4cbBcc33dB6c0a18561fDE1F6bA35906d4848b",
+    "sig": "decimals()",
+    "err": "<urlopen error [Errno 11001] getaddrinfo failed>"
+   }
+  }
+ }
+}
