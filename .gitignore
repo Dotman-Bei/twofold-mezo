@@ -1,0 +1,18 @@
+# secrets — never commit (wallet keys, API keys, RPC tokens)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+keystore*
+node_modules/
+dist/
+out/
+cache/
+contracts/out/
+contracts/cache/
+contracts/lib/
+.vercel/
+.taste-skill/
+shots/
+site/
