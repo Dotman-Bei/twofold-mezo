@@ -29,7 +29,7 @@ _Guide seat: claude-sonnet-5-5 · tier standard · effort high (model id stated 
 
 ## Goal / skills
 - **Goal (user):** win the sponsor's track — Track 1 DeFi. **Guide reframing:** there is no per-track winner; scoring is a points share across all eligible Wave-2 entries (both tracks), so "win" operationalizes as *score at the top of the Wave-2 distribution with a Track-1 product*.
-- **Skills (assumed — the prompt left the example text in place):** Solidity/EVM + DeFi, TypeScript/React/Node, Python/ML (matches the user's prior campaigns). User to correct.
+- **Skills (user-confirmed 2026-11-11 ~23:50 WAT):** Solidity/EVM/DeFi, TypeScript/React/Node, Python/ML.
 
 ## Strategy decisions
 | Decision | Choice | Reason |
@@ -73,8 +73,8 @@ _Guide seat: claude-sonnet-5-5 · tier standard · effort high (model id stated 
 - **User pastes the Step 0a (resource-extractor) kickoff** in a fresh session set to `opus` + effort `high`; when it finishes, come back here and the guide verifies the pack and the tollgate report before green-lighting Step 0.
 
 ## Open blockers / decisions
-- **B1 (confirm, non-blocking):** target is **Wave 2** (Wave 1 is closed) — user to confirm or correct.
-- **B2:** AKINDO + Discord Developer-role + registration questions + Terms for THIS buildathon — not verified; user action (Step 3 preflight can walk it).
-- **B3:** prize eligibility — user checks own residence against the prohibited list and is ready for **KYB** (W9/W8-BEN, ID, proof of address) after Nov 23.
+- **B1 — RESOLVED (user, 2026-11-11 ~23:50 WAT):** target is **Wave 2**.
+- **B2 — RESOLVED, user-attested:** "I am registered" for this buildathon (AKINDO account, Discord, registration questions, Terms). The guide did not independently verify it; Step 3 preflight re-checks the Discord Developer role and the Submit button state.
+- **B3 — RESOLVED, user-attested:** "I'm eligible" (jurisdiction check). **KYB readiness not separately confirmed:** payout after Nov 23 needs W9/W8-BEN, ID, proof of address and a wallet — user to prepare early (not a build blocker).
 - **B4:** widget-vs-body judging-date mismatch and the unconfirmed Wave 3 — ask in Discord; not a planning input.
 - **B5:** tollgate rows 6–8, 10–13, 15–18 unknown until Stage 0.
